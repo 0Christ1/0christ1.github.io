@@ -3,8 +3,8 @@
 
 <div align=center><img src="../Week01/cover/image.jpg"></div>
 
+<hr />
 
-&nbsp;
 ### 1. Description of the Recipe
 [General Tso's chicken](https://en.wikipedia.org/wiki/General_Tso%27s_chicken#Recipes) ([tswò]; Chinese: 左宗棠雞; pinyin: Zuǒ Zōngtáng jī) is a sweet and spicy deep-fried chicken dish that is served in North American Chinese restaurants. The dish is named after Zuo Zongtang, formerly romanized "Tso Tsung-t'ang", a Qing dynasty statesman and military leader, although the dish has no recorded connection to Zuo nor is the dish known in Zuo's home province, Hunan.  
 &nbsp;
