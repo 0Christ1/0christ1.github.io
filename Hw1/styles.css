@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+.left-section {
+  flex: 2;
+  display: flex;
+  margin-left: 42px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.right-section {
+  flex: 2;
+}
+
+h1.css_h1 {
+  font-size: 50px;
+  font-style: Bold;
+  font-family: 'Times New Roman', Times, monospace;
+  text-align: center;
+  margin: 0;
+}
+
+h2.css_h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+p.quote {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+.cover_img {
+  display: block;
+  width: 86%;
+  overflow-wrap: break-word;
+  margin-left: auto;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.content-paragraph {
+  max-width: 700px;
+  overflow-wrap: break-word;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.content-paragraph_img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
