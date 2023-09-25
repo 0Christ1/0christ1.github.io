@@ -41,6 +41,20 @@ h2.css_h2 {
   margin: 0;
 }
 
+h3.css_h3 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Couture", sans-serif;
+  font-style: italic;
+  text-align: left;
+  margin: 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: black;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
 p.quote {
   font-size: 20px;
   text-align: center;
@@ -58,4 +72,36 @@ p.quote {
 
 strong {
   font-size: 30px;
+}
+
+.content_img {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.main-content {
+  padding: 20px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.content-paragraph {
+  max-width: 700px;
+  overflow-wrap: break-word;
+  text-align: left;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.content-paragraph_img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
