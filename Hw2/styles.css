@@ -1,0 +1,61 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  gap: 1px;
+}
+
+.left-section {
+  flex: 2;
+  display: flex;
+  margin-left: 42px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.right-section {
+  flex: 2;
+}
+
+h1.css_h1 {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Couture", sans-serif;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(to right, red, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+h2.css_h2 {
+  justify-content: center;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+p.quote {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.cover_img {
+  display: block;
+  width: 86%;
+  overflow-wrap: break-word;
+  margin-left: auto;
+}
+
+strong {
+  font-size: 30px;
+}
