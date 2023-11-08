@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB 2.0</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./js/swiper.min.js" defer></script>
+  </head>
+  <script type="text/javascript" src="./js/swiper.min.js"></script>
+  <body>
+    <ul class="topnav">
+      <li class="right">
+        <a href="https://0christ1.github.io" target="_blank"
+          ><img class="logo" src="../HW3/img/0Christ1.JPG"
+        /></a>
+      </li>
+    </ul>
+
+    <div class="intro">
+      <img src="./assets/intro1.png" />
+    </div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a
+            href="https://www.google.com/search?q=web2.0&oq=web2&gs_lcrp=EgZjaHJvbWUqCQgAEEUYOxiABDIJCAAQRRg7GIAEMgYIARBFGDsyDAgCEEUYORixAxiABDIGCAMQRRhAMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgYIBxBFGDzSAQgxMTI2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"
+            target="_blank"
+          >
+            <img src="./assets/img1.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="https://eloquentjavascript.net/14_dom.html" target="_blank">
+            <img src="./assets/img2.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="https://javascript.plainenglish.io/how-to-apply-css-styles-to-page-elements-using-javascript-e6d4a22a40de"
+            target="_blank"
+          >
+            <img src="./assets/img3.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="http://fuchs.uti.at/wp-content/uploads/Surveillance_NetWorks.pdf"
+            target="_blank"
+          >
+            <img src="./assets/img4.png" />
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a
+            href="https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html"
+            target="_blank"
+          >
+            <img src="./assets/img5.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a
+            href="https://www.w3.org/TR/DOM-Level-1/introduction.html"
+            target="_blank"
+          >
+            <img src="./assets/img6.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="context">
+      <p>
+        Web 2.0 marks a significant shift in how we use the internet, moving
+        from static web pages to dynamic and social content creation. Its
+        strengths lie in its interactive nature, allowing users to contribute
+        content and collaborate in real-time, which has revolutionized
+        information sharing and community building. Platforms such as blogs,
+        social networks, and wikis are the backbone of this interaction,
+        fostering a participatory culture.
+      </p>
+      <p>
+        However, this interactivity comes with drawbacks. The democratization of
+        content creation has led to concerns over information accuracy, privacy,
+        and security. The sheer volume of user-generated content can overwhelm
+        and mislead users, and the personal data shared can be vulnerable to
+        misuse.
+      </p>
+      <p>
+        Moreover, the algorithmic filtering employed by many Web 2.0 platforms
+        can create echo chambers, limiting the diversity of content we are
+        exposed to and reinforcing our pre-existing beliefs.
+      </p>
+      <p>
+        Despite these challenges, Web 2.0's integration into our daily lives
+        seems only to deepen, indicating that its benefits have significantly
+        outweighed its shortcomings for most users. The key going forward is to
+        address its drawbacks while preserving and enhancing its strengths.
+      </p>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var mySwiper = new Swiper(".swiper-container", {
+      loop: true,
+      effect: "coverflow",
+      slidesPerView: 2,
+      centeredSlides: true,
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 150,
+        depth: 250,
+        modifier: 2,
+        slideShadows: true,
+      },
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: true,
+      },
+    });
+  </script>
+  <div id="footer">Copyright © 0Christ1</div>
+</html>
