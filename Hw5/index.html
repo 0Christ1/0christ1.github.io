@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDev</title>
+    <link rel="stylesheet" href="./theStyle.css" />
+    <script src="./theMedium.js" defer></script>
+  </head>
+  <body>
+    <h3>Sign In Your WebDev Account</h3>
+
+    <div class="container">
+      <label for="name"
+        >Username
+        <input
+          type="text"
+          id="username"
+          required
+          minlength="4"
+          maxlength="8"
+          size="20"
+        />
+      </label>
+
+      <br />
+      <label for="name"
+        >Password
+        <input
+          type="password"
+          id="password"
+          required
+          minlength="4"
+          maxlength="8"
+          size="20"
+      /></label>
+      <div class="button-display">
+        <button id="loginButton">Login</button>
+        <button id="clearButton">Clear</button>
+      </div>
+    </div>
+  </body>
+</html>
