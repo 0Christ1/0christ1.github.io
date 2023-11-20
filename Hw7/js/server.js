@@ -1,5 +1,3 @@
-let theCity;
-
 const clearButton = document.querySelector("#clear");
 const cityInput = document.querySelector("#city");
 const stateInput = document.querySelector("#state");
@@ -8,6 +6,7 @@ clearButton.addEventListener("click", () => {
   stateInput.value = "";
 });
 
+let theCity;
 const theButton = document
   .querySelector("#check")
   .addEventListener("click", async () => {
