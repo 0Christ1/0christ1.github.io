@@ -1,0 +1,45 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  text-indent: 10vw;
+  height: 15vw;
+  margin: 25vw;
+}
+
+.cover .small {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+.cover .big {
+  font-size: 10em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(3, 37%);
+  grid-gap: 1vw;
+  margin: 1vw;
+}
+
+.grid1 img {
+  width: 65%;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 37%);
+  grid-gap: 1vw;
+  margin: 1vw;
+}
+
+.grid2 img {
+  width: 65%;
+}
