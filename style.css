@@ -19,10 +19,9 @@ body {
 }
 
 .intro h1 {
-  width: auto;
   max-width: 90%;
   position: absolute;
-  top: 42%;
+  top: 40%;
   left: 51%;
   transform: translate(-50%, -50%);
   font-size: 80px;
@@ -35,4 +34,13 @@ body {
 #profolio,
 #lowdown {
   opacity: 0;
+}
+
+@media only screen and (max-width: 430px) {
+  .intro h1 {
+    font-size: 19px;
+    max-width: 100%;
+    top: 42%;
+    text-align: center;
+  }
 }
