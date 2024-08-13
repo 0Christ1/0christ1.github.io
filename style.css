@@ -1,11 +1,38 @@
-body {
+* {
   margin: 0;
-  border: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -100;
+body {
+  font-family: sans-serif;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  width: auto;
+  max-width: 90%;
+  position: absolute;
+  top: 42%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#name,
+#profolio,
+#lowdown {
+  opacity: 0;
 }

@@ -9,8 +9,8 @@ window.onresize = function () {
 };
 
 cameraSpeed = 0.0001;
-lightSpeed = 0.0008;
-tubularSegments = 1000;
+lightSpeed = 0.0007;
+tubularSegments = 2000;
 radialSegments = 3;
 tubeRadius = 2;
 lightColor = 0xffffff;
@@ -50,7 +50,7 @@ var geometry = new THREE.TubeGeometry(
   tubularSegments,
   tubeRadius,
   radialSegments,
-  true,
+  true
 );
 
 for (i = 0; i < geometry.faces.length; i++) {
@@ -96,27 +96,27 @@ function render() {
   l1.position.set(
     path.getPointAt((pct2 + 0.0) % 1).x,
     path.getPointAt((pct2 + 0.0) % 1).y,
-    path.getPointAt((pct2 + 0.0) % 1).z,
+    path.getPointAt((pct2 + 0.0) % 1).z
   );
   l2.position.set(
     path.getPointAt((pct2 + 0.2) % 1).x,
     path.getPointAt((pct2 + 0.2) % 1).y,
-    path.getPointAt((pct2 + 0.2) % 1).z,
+    path.getPointAt((pct2 + 0.2) % 1).z
   );
   l3.position.set(
     path.getPointAt((pct2 + 0.4) % 1).x,
     path.getPointAt((pct2 + 0.4) % 1).y,
-    path.getPointAt((pct2 + 0.4) % 1).z,
+    path.getPointAt((pct2 + 0.4) % 1).z
   );
   l4.position.set(
     path.getPointAt((pct2 + 0.6) % 1).x,
     path.getPointAt((pct2 + 0.6) % 1).y,
-    path.getPointAt((pct2 + 0.6) % 1).z,
+    path.getPointAt((pct2 + 0.6) % 1).z
   );
   l5.position.set(
     path.getPointAt((pct2 + 0.8) % 1).x,
     path.getPointAt((pct2 + 0.8) % 1).y,
-    path.getPointAt((pct2 + 0.8) % 1).z,
+    path.getPointAt((pct2 + 0.8) % 1).z
   );
 
   renderer.render(scene, camera);
